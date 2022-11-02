@@ -5,6 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home.component';
 import { AboutUsModule } from '../about-us/about-us.module';
+import { ProductsSelectionModule } from '../products-selection/products-selection.module';
 
 
 
@@ -13,7 +14,8 @@ import { AboutUsModule } from '../about-us/about-us.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    AboutUsModule
+    AboutUsModule,
+    ProductsSelectionModule,
   ]
 })
 export class HomeModule { }

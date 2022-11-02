@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home.component';
+import { AboutUsModule } from '../about-us/about-us.module';
 
 
 
@@ -11,7 +12,8 @@ import { HomeComponent } from './home.component';
   declarations: [HomeComponent,HeaderComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    AboutUsModule
   ]
 })
 export class HomeModule { }

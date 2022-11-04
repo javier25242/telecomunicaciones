@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home.component';
 import { AboutUsModule } from '../about-us/about-us.module';
 import { ProductsSelectionModule } from '../products-selection/products-selection.module';
+import {NavbarModule} from '../navbar/navbar.module'
 
 
 
@@ -16,6 +17,7 @@ import { ProductsSelectionModule } from '../products-selection/products-selectio
     HomeRoutingModule,
     AboutUsModule,
     ProductsSelectionModule,
+    NavbarModule,
   ]
 })
 export class HomeModule { }

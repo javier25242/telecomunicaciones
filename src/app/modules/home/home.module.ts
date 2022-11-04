@@ -4,6 +4,11 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home.component';
+import { AboutUsModule } from '../about-us/about-us.module';
+import { ProductsSelectionModule } from '../products-selection/products-selection.module';
+import {NavbarModule} from '../navbar/navbar.module'
+import { ContactModule } from '../contact/contact.module';
+import { FooterModule } from '../footer/footer.module';
 
 
 
@@ -11,7 +16,12 @@ import { HomeComponent } from './home.component';
   declarations: [HomeComponent,HeaderComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    AboutUsModule,
+    ProductsSelectionModule,
+    NavbarModule,
+    ContactModule,
+    FooterModule,
   ]
 })
 export class HomeModule { }

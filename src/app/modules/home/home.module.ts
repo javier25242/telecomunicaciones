@@ -7,6 +7,7 @@ import { HomeComponent } from './home.component';
 import { AboutUsModule } from '../about-us/about-us.module';
 import { ProductsSelectionModule } from '../products-selection/products-selection.module';
 import {NavbarModule} from '../navbar/navbar.module'
+import { ContactModule } from '../contact/contact.module';
 
 
 
@@ -18,6 +19,7 @@ import {NavbarModule} from '../navbar/navbar.module'
     AboutUsModule,
     ProductsSelectionModule,
     NavbarModule,
+    ContactModule,
   ]
 })
 export class HomeModule { }

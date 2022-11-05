@@ -9,6 +9,7 @@ import { ProductsSelectionModule } from '../products-selection/products-selectio
 import {NavbarModule} from '../navbar/navbar.module'
 import { ContactModule } from '../contact/contact.module';
 import { FooterModule } from '../footer/footer.module';
+import { NavLoginModule } from '../nav-login/nav-login.module';
 
 
 
@@ -22,6 +23,7 @@ import { FooterModule } from '../footer/footer.module';
     NavbarModule,
     ContactModule,
     FooterModule,
+    NavLoginModule,
   ]
 })
 export class HomeModule { }
